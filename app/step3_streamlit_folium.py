@@ -9,7 +9,7 @@ from step2_process_data import location, mall_names, malls, complete_list
 # setup webpage in streamlit 
 st.set_page_config(
     page_title='Carpark Availability',
-    page_icon=':shark:',
+    page_icon=':cow:',
     layout="wide",
     menu_items={"About": "Data is updated on one minute interval"})
 
