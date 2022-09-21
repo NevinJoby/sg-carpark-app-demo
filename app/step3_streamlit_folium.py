@@ -14,7 +14,7 @@ st.set_page_config(
     menu_items={"About": "Data is updated on one minute interval"})
 
 # create a wallpaper in the app
-set_bg("assets/wallpaper.jpg") 
+set_bg("assets/car.jpg") 
 
 # create headers and information for the app
 head() 
@@ -29,7 +29,7 @@ with st.expander("HDB"):
     filter_hdb = st.multiselect("You may select more than one", location)
     
 ####------- user to select shopping mall carpark ---------####
-st.header("Shopping Malls Carpark")
+st.header("Shopping Mall Carparks")
 
 # use of multiselect widget for user to select the sooping mall carparks by mall name.
 with st.expander("Shopping Mall"):
